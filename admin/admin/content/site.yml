@@ -1,0 +1,24 @@
+content/site.yml
+company_name: Inport Marine Supply
+tagline: Trusted Ship Chandler & Marine Supplier in India
+
+about: >
+  Inport Marine Supply is a reliable ship chandler providing provisions,
+  bonded stores, frozen supplies, and cabin stores to vessels calling at
+  Indian ports.
+
+services:
+  - name: Ship Provisions
+    description: Fresh fruits, vegetables, and dry provisions.
+  - name: Frozen Supplies
+    description: Frozen meat, seafood, and frozen vegetables.
+  - name: Bonded Stores
+    description: Cigarettes, chocolates, and bonded items.
+
+ports:
+  - JNPT / Nhava Sheva
+  - Mumbai Port
+
+phone: "+91-XXXXXXXXXX"
+email: "info@inport.world"
+whatsapp: "+91-XXXXXXXXXX"
