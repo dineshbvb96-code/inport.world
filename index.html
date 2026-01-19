@@ -2,13 +2,29 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Inport Marine Supply India | Ship Chandler, Marine Provisions & Bonded Stores</title>
-
-<meta name="description" content="Inport Marine Supply is a professional ship chandler in India providing ship provisions, frozen supplies, bonded stores and marine stores at JNPT, Mumbai Port and Indian ports. Contact us for reliable ship supply services.">
+<title>Inport Marine Supply India | Ship Chandler & Marine Supplier</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Inport Marine Supply is a professional ship chandler in India providing ship provisions, frozen supplies, bonded stores, and marine supplies at JNPT, Mumbai and Indian ports.">
-<meta name="keywords" content="ship chandler india, marine supply india, ship provisions, bonded store supplier, jnpt ship chandler">
+<meta name="description" content="Inport Marine Supply is a professional ship chandler in India providing ship provisions, bonded stores, frozen supplies and marine stores at JNPT, Mumbai Port and Indian ports.">
+<meta name="keywords" content="ship chandler india, marine supply india, ship provisions, bonded stores, jnpt ship chandler">
+
+<!-- GOOGLE STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Inport Marine Supply",
+  "url": "https://inport.world",
+  "logo": "https://inport.world/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-8291142987",
+    "contactType": "customer service",
+    "email": "inport@zohomail.in",
+    "areaServed": "IN"
+  }
+}
+</script>
 
 <style>
 body {
@@ -18,6 +34,7 @@ body {
   line-height: 1.6;
 }
 
+/* HEADER */
 header {
   background: #0b3c5d;
   color: white;
@@ -32,11 +49,13 @@ header {
   z-index: 1000;
 }
 
+header img {
+  height: 42px;
+}
+
 nav {
   display: flex;
-  align-items: center;
   gap: 16px;
-  flex-wrap: nowrap;
 }
 
 nav a {
@@ -47,19 +66,11 @@ nav a {
   font-size: 14px;
 }
 
-
-header img {
-  height: 45px;
+nav a:hover {
+  color: #ffb703;
 }
 
-nav a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
-  font-weight: bold;
-  white-space: nowrap;
-}
-
+/* HERO */
 .hero {
   padding: 140px 20px 70px;
   background: #eef3f8;
@@ -71,8 +82,14 @@ nav a {
   font-size: 36px;
 }
 
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* SECTIONS */
 section {
-  padding: 60px 20px;
+  padding: 70px 20px;
   max-width: 1100px;
   margin: auto;
 }
@@ -95,6 +112,7 @@ h2 {
   border-radius: 8px;
 }
 
+/* FORM */
 input, textarea {
   width: 100%;
   padding: 10px;
@@ -113,6 +131,7 @@ button {
   border-radius: 5px;
 }
 
+/* FOOTER */
 footer {
   background: #0b3c5d;
   color: white;
@@ -120,7 +139,7 @@ footer {
   padding: 25px;
 }
 
-/* WhatsApp Button */
+/* WHATSAPP */
 .whatsapp {
   position: fixed;
   bottom: 20px;
@@ -137,7 +156,7 @@ footer {
 
 <body>
 
-<!-- WhatsApp Button -->
+<!-- WHATSAPP BUTTON -->
 <a class="whatsapp" href="https://wa.me/918291142987" target="_blank">
   WhatsApp Us
 </a>
@@ -149,24 +168,26 @@ footer {
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#services">Services</a>
+    <a href="#ports">Ports</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
 <!-- HERO -->
 <div class="hero" id="home">
-  <h1>Welcome to Inport Marine Supply</h1>
-  <p>Delivering Ship Supplies on Time, Every Time</p>
+  <h1>Inport Marine Supply</h1>
+  <p>Trusted Ship Chandler & Marine Supplier in India</p>
 </div>
 
 <!-- ABOUT -->
 <section id="about">
   <h2>About Us</h2>
   <p>
-    Inport Marine Supply is a trusted ship chandler based in India, providing
-    high-quality marine provisions, frozen supplies, bonded stores, and cabin
-    & deck stores to vessels calling at Indian ports. We ensure timely delivery,
-    competitive pricing, and reliable service for ship owners, managers, and crews.
+    Inport Marine Supply is a professional ship chandler based in India,
+    supplying high-quality marine provisions, bonded stores, frozen supplies,
+    and cabin & deck stores to vessels calling at Indian ports.
+    We focus on timely delivery, consistent quality, and competitive pricing
+    to meet the expectations of ship owners, managers, and crew.
   </p>
 </section>
 
@@ -174,27 +195,17 @@ footer {
 <section id="services">
   <h2>Our Services</h2>
   <div class="grid">
-    <div class="box">
-      <strong>Ship Provisions</strong>
-      <p>Fresh fruits, vegetables, dairy products, dry provisions & beverages.</p>
-    </div>
-    <div class="box">
-      <strong>Frozen Supplies</strong>
-      <p>Frozen meat, seafood, and frozen vegetables.</p>
-    </div>
-    <div class="box">
-      <strong>Bonded Stores</strong>
-      <p>Cigarettes, chocolates, soft drinks, and bonded items.</p>
-    </div>
-    <div class="box">
-      <strong>Cabin & Deck Stores</strong>
-      <p>Cleaning chemicals, paper products, safety & consumables.</p>
-    </div>
+    <div class="box"><strong>Ship Provisions</strong><br>Fresh fruits, vegetables, dairy products & dry provisions.</div>
+    <div class="box"><strong>Frozen Supplies</strong><br>Frozen meat, seafood & frozen vegetables.</div>
+    <div class="box"><strong>Bonded Stores</strong><br>Cigarettes, chocolates, soft drinks & bonded items.</div>
+    <div class="box"><strong>Cabin & Deck Stores</strong><br>Cleaning chemicals, paper products & consumables.</div>
+    <div class="box"><strong>Stationery</strong><br>Office & vessel stationery items.</div>
+    <div class="box"><strong>Cleaning Equipment</strong><br>Mops, chemicals & housekeeping supplies.</div>
   </div>
 </section>
 
 <!-- PORTS -->
-<section>
+<section id="ports">
   <h2>Ports We Serve</h2>
   <div class="grid">
     <div class="box">JNPT / Nhava Sheva</div>
@@ -204,29 +215,38 @@ footer {
   </div>
 </section>
 
+<!-- MAP -->
+<section>
+  <h2>Our Location</h2>
+  <iframe
+    src="https://www.google.com/maps?q=Mumbai%20Port%20India&output=embed"
+    width="100%"
+    height="300"
+    style="border:0;"
+    loading="lazy">
+  </iframe>
+</section>
+
 <!-- CONTACT -->
 <section id="contact">
   <h2>Contact Us</h2>
-
   <p>Email: <a href="mailto:inport@zohomail.in">inport@zohomail.in</a></p>
   <p>Phone: <a href="tel:+918291142987">+91 8291142987</a></p>
   <p>WhatsApp: <a href="https://wa.me/918291142987" target="_blank">+91 8291142987</a></p>
 
   <h3>Send Enquiry</h3>
-
   <form action="https://formsubmit.co/inport@zohomail.in" method="POST">
     <input type="text" name="name" placeholder="Your Name" required>
     <input type="text" name="vessel" placeholder="Vessel Name">
     <input type="email" name="email" placeholder="Your Email" required>
     <textarea name="message" rows="5" placeholder="Your Requirement"></textarea>
-
     <input type="hidden" name="_captcha" value="false">
     <button type="submit">Send Enquiry</button>
   </form>
 </section>
 
 <footer>
-  <p>© 2026 Inport Marine Supply. All Rights Reserved.</p>
+  © 2026 Inport Marine Supply. All Rights Reserved.
 </footer>
 
 </body>
